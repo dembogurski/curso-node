@@ -1,0 +1,19 @@
+
+
+Como instalar Paquetes?
+
+npm install express  // Por Ejemplo
+
+Como desinstalar Paquetes?
+
+npm uninstall express
+
+Como instalar versiones especificas?
+
+npm install express@4.15.1
+
+
+
+// Otra forma de Instalar Guardar como desarrollo
+
+npm install express --save-dev
