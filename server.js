@@ -2,7 +2,7 @@ const http = require('http');
 
 const servidor = http.createServer((req,res)=>{
    // Proceso
-
+   console.log("Solicitud nueva...");
    res.end('Hola Mundo!!!'); // Para finalizar
 });
 
