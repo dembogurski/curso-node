@@ -10,3 +10,6 @@ servidor.listen(3000,()=>{
     console.log("Servidor iniciado...");
 });
 
+// node server.js
+
+
