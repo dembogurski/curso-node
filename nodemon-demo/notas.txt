@@ -1,0 +1,5 @@
+// nodemon
+Es un monitor de node para que no se necesite reinicar el server cada vez 
+que se haga un cambio en un archivo
+
+npm install -g nodemon
