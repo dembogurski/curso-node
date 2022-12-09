@@ -1,4 +1,5 @@
 const http = require('http');
+const PUERTO = 3000;
 
 const servidor = http.createServer((req,res)=>{
    // Proceso
@@ -6,8 +7,10 @@ const servidor = http.createServer((req,res)=>{
    res.end('Hola Mundo!!!'); // Para finalizar
 });
 
-servidor.listen(3000,()=>{
-    console.log("Servidor iniciado...");
+
+
+servidor.listen(PUERTO,()=>{
+    console.log("Servidor escuchando en: http://localhost:"+PUERTO);
 });
 
 // node server.js
