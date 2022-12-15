@@ -10,7 +10,6 @@ routerMatematicas.get('/',(req,res)=>{
 });
 
 
-
 // Cursos de matematicas
 // se deja como ejemplo   app.get('/api/cursos/matematicas/:tema',(req,res)=>{  
 routerMatematicas.get('/:tema',(req,res)=>{   
